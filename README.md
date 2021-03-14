@@ -10,7 +10,7 @@ https://github.com/rocku0/Tile-renderer
 A tile world is created that creates a maze of walls and roads. Each car is controlled by a simple neural network with weights and biases randomly initialized with a range of [0, 1]. The NN uses the sigmoid activation funcion. The size of the NN can be changed from the static variable brainSize in Brain class:
 ```sh
 brainSize = [4,5,6,4]
-# 5 layers, input and output have 4 features, there are 2 hidden layers with 5 and 6 nodes respectively
+# 4 layers in total, input and output have 4 features, there are 2 hidden layers with 5 and 6 nodes respectively
 # The best 'brain sizes' observed are [4,2,4] to [4,5,4] 
 ```
 Every new generation the car that travelled the furthest gives its 'brain' to the next generation. One random mutation is performed to the biases and weights of each layer in the range of [0, 0.1].
