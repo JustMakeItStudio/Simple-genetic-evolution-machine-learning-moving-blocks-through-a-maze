@@ -26,9 +26,7 @@ Every new generation the car that travelled the furthest gives its 'brain' to th
 
 
 ### Future updates:
-  - Implement a menu system, starting screen, pause, failure and win screen.
-  - Change the appearance, colors, fonts.
-  - Add sounds.
+  - Spawn more cars with the next generation, some must be totaly random while the rest must be mutations of the previusly best performing brain.
   - Reduce the needed libraries.
   - Add a past position tracker and prevent the brain from choosing to move there, this might make the cars go around the maze, instead of going back and forth on the same 2-3 blocks.
 
