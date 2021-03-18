@@ -45,6 +45,11 @@ To clone the repository, open the command prompt at the directory of choice and 
 $  git clone --recursive https://github.com/rocku0/Simple-genetic-evolution-machine-learning-moving-blocks-through-a-maze
 ```
 
+### Screen shot:
+
+![image](https://user-images.githubusercontent.com/71210416/111704125-4e247600-8847-11eb-811e-800bb5f66310.png)
+
+
 **Use this as you like**
 
    [math]: <https://docs.python.org/3/library/math.html>
