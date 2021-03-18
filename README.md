@@ -48,7 +48,11 @@ $  git clone --recursive https://github.com/rocku0/Simple-genetic-evolution-mach
 ### Screen shot:
 
 ![image](https://user-images.githubusercontent.com/71210416/111704125-4e247600-8847-11eb-811e-800bb5f66310.png)
-
+#### Tile color meaning:
+- Blue: wall
+- Red: wall that a car has crashed on it
+- Black: road
+- White: car
 
 **Use this as you like**
 
