@@ -4,7 +4,7 @@ Build in Python 3.
 Is to create a setup where two cars move in a maze with a feed forward neural network (NN) at the steering wheel. The NN is trained over many generations, every new generation, two cars are spawned with a brain structure inherited from the best performing car from the previews generation. When a car collides with a wall it stops. The goal is to see the cars develop a good strategy for staying in game as long as possible, meaning they do not collide to the walls, and go around the maze.
 The tile rendering is given as a separate repository here:
 ```sh
-https://github.com/rocku0/Tile-renderer
+https://github.com/JustMakeItStudio/Tile-renderer
 ```
 ### Actual implementation
 A tile world is created that creates a maze of walls and roads. Each car is controlled by a simple neural network with weights and biases randomly initialized with a range of [0, 1]. The NN uses the sigmoid activation funcion. The size of the NN can be changed from the static variable brainSize in Brain class:
@@ -42,7 +42,7 @@ $ pip install pygame
 
 To clone the repository, open the command prompt at the directory of choice and type:
 ```sh
-$  git clone --recursive https://github.com/rocku0/Simple-genetic-evolution-machine-learning-moving-blocks-through-a-maze
+$  git clone --recursive https://github.com/JustMakeItStudio/Simple-genetic-evolution-machine-learning-moving-blocks-through-a-maze
 ```
 
 ### Screen shot:
